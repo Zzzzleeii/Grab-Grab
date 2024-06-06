@@ -1,3 +1,6 @@
+# cd etc/netplan/01-network-manager-all.yaml
+# sudo -s
+# chmod a+w 01-network-manager-all.yaml
 # Let NetworkManager manage all devices on this system
 network:
   version: 2
