@@ -1,4 +1,4 @@
-# Aubo_i5
+# Aubo_i5 in Ubuntu_20.04
 ```
 roscore
 source devel/setup.bash
