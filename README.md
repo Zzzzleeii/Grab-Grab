@@ -1,4 +1,4 @@
-  # 6D Object Detection & Grasping on Aubo_i5 Manipulator & D415 RGBD Cam
+  # 6DoF Object Grasping on Aubo_i5 Manipulator & D415 RGBD Camera
 
 Ubuntu version: 20.04
 
