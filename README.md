@@ -19,4 +19,6 @@ roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.1
 ## Installation of Realsense2
 
 ## Eye-on-Hand
+```
 catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+```
