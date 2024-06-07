@@ -1,6 +1,6 @@
   # 6D Object Detection & Grasping on Aubo_i5 Manipulator & D415 RGBD Cam
 
-Ubuntu.ver: 20.04
+Ubuntu version: 20.04
 
 After configuring network
 ```
