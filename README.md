@@ -20,5 +20,5 @@ roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.1
 
 ## Eye-on-Hand
 ```
-catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+catkin build -j2 -DCATKIN_WHITELIST_PACKAGES="easy_handeye" -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
