@@ -15,3 +15,8 @@ source devel/setup.bash
 ```
 roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.168.31.10
 ```
+
+## Installation of Realsense2
+
+## Eye-on-Hand
+catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
