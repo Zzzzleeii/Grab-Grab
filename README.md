@@ -1,4 +1,4 @@
-# Aubo_i5 in Ubuntu_20.04
+# Aubo_i5 manipulator in Ubuntu_20.04
 
 After configuring network
 ```
