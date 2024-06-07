@@ -3,6 +3,9 @@
 After configuring network
 ```
 roscore
+```
+Add to .bashrc
+```
 source devel/setup.bash
 ```
 
