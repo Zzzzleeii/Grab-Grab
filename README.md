@@ -1,4 +1,4 @@
-  # 6DoF Object Grasping by Auboi5 Manipulator & D415
+  # 6DoF Object Grasping by Aubo-i5 Manipulator & D415
 
 Ubuntu version: 20.04
 
