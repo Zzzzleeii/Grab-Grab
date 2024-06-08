@@ -35,7 +35,7 @@ sudo apt-get install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev at
 realsense-viewer
 ```
 
-5. Installation of Ros Package
+5. Installation of ROS Package
 ```
 sudo apt-get install ros-noetic-realsense2-*
 ```
