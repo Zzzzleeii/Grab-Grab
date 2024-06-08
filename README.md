@@ -1,6 +1,6 @@
   # 6DoF Object Grasping by Aubo-i5 Manipulator & D415
   
-Ubuntu version: 20.04
+**Ubuntu version: 20.04**
 
 ## 1. Preparation
 
