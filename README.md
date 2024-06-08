@@ -10,7 +10,7 @@
 git clone https://github.com/Zzzzleeii/Aubo_i5/aubo_ws.git
 ```
 
-- Add it to **.bashrc** file:
+- Add to **.bashrc** file:
 ```
 source devel/setup.bash
 ```
