@@ -3,7 +3,7 @@
 **Ubuntu version: 20.04**
 
 ## Preparation
-1. Configure the network setting
+- Configure the network setting
 
 2. Download the code:
 ```
