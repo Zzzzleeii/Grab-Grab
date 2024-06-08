@@ -3,7 +3,8 @@
 **Ubuntu version: 20.04**
 
 ## Preparation
-1. Configure the network setting 
+1. Configure the network setting
+
 2. Download the code:
 ```
 git clone https://github.com/Zzzzleeii/Aubo_i5/aubo_ws.git
