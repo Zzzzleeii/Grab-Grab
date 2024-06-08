@@ -6,7 +6,7 @@ Ubuntu version: 20.04
 
 Configure the network setting
 
-Add code to .bashrc:
+Add code to **.bashrc** file:
 ```
 source devel/setup.bash
 ```
