@@ -24,7 +24,7 @@ roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.1
 
 ## Installation of Intel Realsense2
 
-[**Care for the version of SDK and firmwire**]([url](https://dev.intelrealsense.com/docs/firmware-releases-d400))
+[**Care for the version of SDK and firmwire**](https://dev.intelrealsense.com/docs/firmware-releases-d400)
 
 1. Install Depencencies:
 ```
