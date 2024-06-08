@@ -15,7 +15,8 @@ source devel/setup.bash
 roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.168.31.10
 ```
 
-## 3. Installation of Realsense2
+## 3. Installation of Intel Realsense2
+**Care for the version of SDK and firmwire
 
 ## 4. Easy Handeye Eye-in-Hand Calibration
 ```
