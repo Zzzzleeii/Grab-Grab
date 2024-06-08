@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/home/aubo-fy/aubo_ws/devel/.private/visp_bridge/lib;/home/aubo-fy/aubo_ws/devel/.private/visp_tracker/lib;/opt/ros/noetic/lib")

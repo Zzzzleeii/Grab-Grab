@@ -1,8 +1,0 @@
-prefix=/home/aubo-fy/aubo_ws/install
-
-Name: respeaker_ros
-Description: Description of respeaker_ros
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 
