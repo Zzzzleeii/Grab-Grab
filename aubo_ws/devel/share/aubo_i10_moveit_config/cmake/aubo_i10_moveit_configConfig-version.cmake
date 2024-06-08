@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/aubo_i10_moveit_config/share/aubo_i10_moveit_config/cmake/aubo_i10_moveit_configConfig-version.cmake

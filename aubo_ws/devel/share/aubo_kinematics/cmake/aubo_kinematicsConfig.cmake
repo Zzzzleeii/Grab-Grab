@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/aubo_kinematics/share/aubo_kinematics/cmake/aubo_kinematicsConfig.cmake

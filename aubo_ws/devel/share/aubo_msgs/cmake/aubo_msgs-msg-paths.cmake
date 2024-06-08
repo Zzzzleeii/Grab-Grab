@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/aubo_msgs/share/aubo_msgs/cmake/aubo_msgs-msg-paths.cmake

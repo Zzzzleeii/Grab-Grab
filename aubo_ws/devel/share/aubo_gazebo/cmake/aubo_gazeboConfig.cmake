@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/aubo_gazebo/share/aubo_gazebo/cmake/aubo_gazeboConfig.cmake

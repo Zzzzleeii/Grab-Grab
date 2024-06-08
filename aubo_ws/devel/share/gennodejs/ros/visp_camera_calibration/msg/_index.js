@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/visp_camera_calibration/share/gennodejs/ros/visp_camera_calibration/msg/_index.js

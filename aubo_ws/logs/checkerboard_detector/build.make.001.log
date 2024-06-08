@@ -1,0 +1,51 @@
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target posedetection_msgs_generate_messages_cpp
+[ 14%] Built target checkerboard_detector_gencfg
+[ 28%] [32mBuilding CXX object CMakeFiles/checkerboard_calibration.dir/src/checkerboard_calibration.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/checkerboard_detector.dir/src/checkerboard_detector.cpp.o[0m
+[ 71%] Built target objectdetection_transform_echo
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_calibration.cpp:32:10:[m[K [01;31m[Kfatal error: [m[Kopencv/cv.hpp: 没有那个文件或目录
+   32 | #include [01;31m[K"opencv/cv.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/checkerboard_calibration.dir/build.make:63：CMakeFiles/checkerboard_calibration.dir/src/checkerboard_calibration.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:923：CMakeFiles/checkerboard_calibration.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:[m[K In constructor ‘[01m[KCheckerboardDetector::CheckerboardDetector()[m[K’:
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:230:42:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_WINDOW_NORMAL[m[K’ was not declared in this scope; did you mean ‘[01m[KCV_RAND_NORMAL[m[K’?
+  230 |                           (display == 1? [01;31m[KCV_WINDOW_NORMAL[m[K : display));
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                          [32m[KCV_RAND_NORMAL[m[K
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:[m[K In member function ‘[01m[Kbool CheckerboardDetector::Detect(posedetection_msgs::ObjectDetection&, const Image&, const CameraInfo&)[m[K’:
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:491:49:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_CALIB_CB_ADAPTIVE_THRESH[m[K’ was not declared in this scope
+  491 |                         (adaptive_thresh_flag ? [01;31m[KCV_CALIB_CB_ADAPTIVE_THRESH[m[K : 0) |
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:492:49:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_CALIB_CB_NORMALIZE_IMAGE[m[K’ was not declared in this scope
+  492 |                         (normalize_image_flag ? [01;31m[KCV_CALIB_CB_NORMALIZE_IMAGE[m[K : 0) |
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:493:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_CALIB_CB_FILTER_QUADS[m[K’ was not declared in this scope
+  493 |                         (filter_quads_flag ? [01;31m[KCV_CALIB_CB_FILTER_QUADS[m[K : 0) |
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:494:44:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_CALIB_CB_FAST_CHECK[m[K’ was not declared in this scope
+  494 |                         (fast_check_flag ? [01;31m[KCV_CALIB_CB_FAST_CHECK[m[K : 0)
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:567:54:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_FILLED[m[K’ was not declared in this scope
+  567 |                                   cv::Scalar(0,0,0), [01;31m[KCV_FILLED[m[K);
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:33[m[K:
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::Pose CheckerboardDetector::FindTransformation(const std::vector<cv::Point_<float> >&, const std::vector<cv::Point3_<float> >&, const Transform&, const image_geometry::PinholeCameraModel&, double)[m[K’:
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:703:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+  703 |         ROS_DEBUG([01;35m[K"max error of cells: %d"[m[K, [32m[Kmax_diff_norm/cell_size[m[K);
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[K|[m[K
+      |                                                          [32m[Kdouble[m[K
+[01m[K/home/aubo-fy/aubo_ws/src/aubo_i5_realsense_calibration/checkerboard_detector/src/checkerboard_detector.cpp:703:41:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  703 |         ROS_DEBUG("max error of cells: [01;36m[K%d[m[K", max_diff_norm/cell_size);
+      |                                        [01;36m[K~^[m[K
+      |                                         [01;36m[K|[m[K
+      |                                         [01;36m[Kint[m[K
+      |                                        [32m[K%f[m[K
+make[2]: *** [CMakeFiles/checkerboard_detector.dir/build.make:63：CMakeFiles/checkerboard_detector.dir/src/checkerboard_detector.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:247：CMakeFiles/checkerboard_detector.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

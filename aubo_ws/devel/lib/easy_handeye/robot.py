@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/easy_handeye/lib/easy_handeye/robot.py

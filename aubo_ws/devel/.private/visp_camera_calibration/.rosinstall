@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/aubo-fy/aubo_ws/devel/.private/visp_camera_calibration/setup.sh

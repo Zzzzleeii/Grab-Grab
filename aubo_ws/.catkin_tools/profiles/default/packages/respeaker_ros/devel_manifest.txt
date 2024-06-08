@@ -1,0 +1,15 @@
+respeaker_ros
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/cmake.lock /home/aubo-fy/aubo_ws/devel/./cmake.lock
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/lib/respeaker_ros/speech_to_text.py /home/aubo-fy/aubo_ws/devel/lib/respeaker_ros/speech_to_text.py
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/lib/respeaker_ros/respeaker_node.py /home/aubo-fy/aubo_ws/devel/lib/respeaker_ros/respeaker_node.py
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/lib/respeaker_ros/cmake.lock /home/aubo-fy/aubo_ws/devel/lib/respeaker_ros/cmake.lock
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/lib/pkgconfig/respeaker_ros.pc /home/aubo-fy/aubo_ws/devel/lib/pkgconfig/respeaker_ros.pc
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/lib/python3/dist-packages/respeaker_ros/__init__.py /home/aubo-fy/aubo_ws/devel/lib/python3/dist-packages/respeaker_ros/__init__.py
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/lib/python3/dist-packages/respeaker_ros/cfg/RespeakerConfig.py /home/aubo-fy/aubo_ws/devel/lib/python3/dist-packages/respeaker_ros/cfg/RespeakerConfig.py
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/lib/python3/dist-packages/respeaker_ros/cfg/__init__.py /home/aubo-fy/aubo_ws/devel/lib/python3/dist-packages/respeaker_ros/cfg/__init__.py
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/include/respeaker_ros/RespeakerConfig.h /home/aubo-fy/aubo_ws/devel/include/respeaker_ros/RespeakerConfig.h
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/share/respeaker_ros/docs/RespeakerConfig-usage.dox /home/aubo-fy/aubo_ws/devel/share/respeaker_ros/docs/RespeakerConfig-usage.dox
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/share/respeaker_ros/docs/RespeakerConfig.wikidoc /home/aubo-fy/aubo_ws/devel/share/respeaker_ros/docs/RespeakerConfig.wikidoc
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/share/respeaker_ros/docs/RespeakerConfig.dox /home/aubo-fy/aubo_ws/devel/share/respeaker_ros/docs/RespeakerConfig.dox
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/share/respeaker_ros/cmake/respeaker_rosConfig.cmake /home/aubo-fy/aubo_ws/devel/share/respeaker_ros/cmake/respeaker_rosConfig.cmake
+/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/share/respeaker_ros/cmake/respeaker_rosConfig-version.cmake /home/aubo-fy/aubo_ws/devel/share/respeaker_ros/cmake/respeaker_rosConfig-version.cmake

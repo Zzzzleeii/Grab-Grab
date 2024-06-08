@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/aubo_e5_moveit_config/lib/pkgconfig/aubo_e5_moveit_config.pc

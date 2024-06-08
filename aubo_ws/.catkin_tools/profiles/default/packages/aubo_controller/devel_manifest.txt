@@ -1,0 +1,8 @@
+aubo_robot/aubo_controller
+/home/aubo-fy/aubo_ws/devel/.private/aubo_controller/cmake.lock /home/aubo-fy/aubo_ws/devel/./cmake.lock
+/home/aubo-fy/aubo_ws/devel/.private/aubo_controller/lib/aubo_controller/aubo_joint_trajectory_action /home/aubo-fy/aubo_ws/devel/lib/aubo_controller/aubo_joint_trajectory_action
+/home/aubo-fy/aubo_ws/devel/.private/aubo_controller/lib/aubo_controller/cmake.lock /home/aubo-fy/aubo_ws/devel/lib/aubo_controller/cmake.lock
+/home/aubo-fy/aubo_ws/devel/.private/aubo_controller/lib/aubo_controller/aubo_robot_simulator /home/aubo-fy/aubo_ws/devel/lib/aubo_controller/aubo_robot_simulator
+/home/aubo-fy/aubo_ws/devel/.private/aubo_controller/lib/pkgconfig/aubo_controller.pc /home/aubo-fy/aubo_ws/devel/lib/pkgconfig/aubo_controller.pc
+/home/aubo-fy/aubo_ws/devel/.private/aubo_controller/share/aubo_controller/cmake/aubo_controllerConfig-version.cmake /home/aubo-fy/aubo_ws/devel/share/aubo_controller/cmake/aubo_controllerConfig-version.cmake
+/home/aubo-fy/aubo_ws/devel/.private/aubo_controller/share/aubo_controller/cmake/aubo_controllerConfig.cmake /home/aubo-fy/aubo_ws/devel/share/aubo_controller/cmake/aubo_controllerConfig.cmake

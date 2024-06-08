@@ -1,0 +1,4 @@
+[ 25%] Built target testAuboAPI
+[ 50%] Built target aubo_gazebo_driver
+[ 75%] Built target testIO
+[100%] Built target aubo_driver

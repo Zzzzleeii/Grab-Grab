@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/visp_tracker/share/roseus/ros/visp_tracker/msg/MovingEdgeSite.l

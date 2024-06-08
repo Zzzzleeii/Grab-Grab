@@ -1,0 +1,8 @@
+prefix=/home/aubo-fy/aubo_ws/install
+
+Name: checkerboard_detector
+Description: Description of checkerboard_detector
+Version: 1.2.6
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rosconsole cv_bridge sensor_msgs posedetection_msgs image_geometry jsk_recognition_msgs

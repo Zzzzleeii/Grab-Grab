@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/aubo_demo/lib/pkgconfig/aubo_demo.pc

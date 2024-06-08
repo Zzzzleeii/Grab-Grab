@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/aubo_i5l_moveit_config/share/aubo_i5l_moveit_config/cmake/aubo_i5l_moveit_configConfig-version.cmake

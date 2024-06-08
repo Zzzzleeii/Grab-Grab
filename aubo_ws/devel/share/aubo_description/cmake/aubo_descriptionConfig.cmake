@@ -1,0 +1,1 @@
+/home/aubo-fy/aubo_ws/devel/.private/aubo_description/share/aubo_description/cmake/aubo_descriptionConfig.cmake
