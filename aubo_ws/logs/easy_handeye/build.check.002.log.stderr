@@ -1,3 +1,0 @@
-CMake Error: The source directory "/home/aubo-fy/aubo_ws/src/easy_handeye/easy_handeye" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.
-make: *** [Makefile:1034：cmake_check_build_system] 错误 1

@@ -1,7 +1,0 @@
-Symlinking /home/aubo-fy/aubo_ws/devel/lib/libauto_tracker.so
-Symlinking /home/aubo-fy/aubo_ws/devel/lib/libvisp_auto_tracker_cmd_line.so
-Symlinking /home/aubo-fy/aubo_ws/devel/lib/visp_auto_tracker/visp_auto_tracker
-Symlinking /home/aubo-fy/aubo_ws/devel/lib/pkgconfig/visp_auto_tracker.pc
-Symlinking /home/aubo-fy/aubo_ws/devel/share/visp_auto_tracker/cmake/visp_auto_trackerConfig-version.cmake
-Symlinking /home/aubo-fy/aubo_ws/devel/share/visp_auto_tracker/cmake/visp_auto_trackerConfig.cmake
-Symlinking /home/aubo-fy/aubo_ws/devel/share/visp_auto_tracker/bag/tutorial-qrcode.bag

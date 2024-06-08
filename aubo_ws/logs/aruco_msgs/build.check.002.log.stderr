@@ -1,3 +1,0 @@
-CMake Error: The source directory "/home/aubo-fy/aubo_ws/src/aruco_ros/aruco_msgs" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.
-make: *** [Makefile:656：cmake_check_build_system] 错误 1

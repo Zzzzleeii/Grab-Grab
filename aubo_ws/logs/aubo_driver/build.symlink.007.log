@@ -1,7 +1,0 @@
-Linked: (/home/aubo-fy/aubo_ws/devel/.private/aubo_driver/lib/aubo_driver/aubo_gazebo_driver, /home/aubo-fy/aubo_ws/devel/lib/aubo_driver/aubo_gazebo_driver)
-Linked: (/home/aubo-fy/aubo_ws/devel/.private/aubo_driver/lib/aubo_driver/testAuboAPI, /home/aubo-fy/aubo_ws/devel/lib/aubo_driver/testAuboAPI)
-Linked: (/home/aubo-fy/aubo_ws/devel/.private/aubo_driver/lib/aubo_driver/testIO, /home/aubo-fy/aubo_ws/devel/lib/aubo_driver/testIO)
-Linked: (/home/aubo-fy/aubo_ws/devel/.private/aubo_driver/lib/aubo_driver/aubo_driver, /home/aubo-fy/aubo_ws/devel/lib/aubo_driver/aubo_driver)
-Linked: (/home/aubo-fy/aubo_ws/devel/.private/aubo_driver/lib/pkgconfig/aubo_driver.pc, /home/aubo-fy/aubo_ws/devel/lib/pkgconfig/aubo_driver.pc)
-Linked: (/home/aubo-fy/aubo_ws/devel/.private/aubo_driver/share/aubo_driver/cmake/aubo_driverConfig-version.cmake, /home/aubo-fy/aubo_ws/devel/share/aubo_driver/cmake/aubo_driverConfig-version.cmake)
-Linked: (/home/aubo-fy/aubo_ws/devel/.private/aubo_driver/share/aubo_driver/cmake/aubo_driverConfig.cmake, /home/aubo-fy/aubo_ws/devel/share/aubo_driver/cmake/aubo_driverConfig.cmake)
