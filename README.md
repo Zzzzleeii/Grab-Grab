@@ -23,12 +23,12 @@ roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.1
 sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev
 ``` 
 
-2. Prepare Linux Backend and the Dev. Environment, Unplug any connected Intel RealSense camera and run:
+2. Prepare Linux Backend and the Dev. Environment, unplug any connected Intel RealSense camera and run:
 ```
 
 ```
 
-3. Installation & Uninstallation & Upgradation of the SDK: https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#uninstalling-the-packages
+3. Installation, uninstallation, upgradation of the SDK: https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#uninstalling-the-packages
 
 4. Run & Test
 ```
