@@ -6,7 +6,12 @@
 
 Configure the network setting
 
-Add code to **.bashrc** file:
+Download the code:
+```
+git clone https://github.com/Zzzzleeii/Aubo_i5/aubo_ws.git
+```
+
+Add it to **.bashrc** file:
 ```
 source devel/setup.bash
 ```
