@@ -41,7 +41,7 @@ realsense-viewer
 sudo apt-get install ros-noetic-realsense2-*
 ```
 
-[**Care for the version of SDK and Firmwire!!**](https://dev.intelrealsense.com/docs/firmware-releases-d400)
+Care for the [**version**](https://dev.intelrealsense.com/docs/firmware-releases-d400) of SDK and Firmwire!!
 
 ## Easy Handeye Eye-in-Hand Calibration
 
