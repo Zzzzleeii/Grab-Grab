@@ -45,7 +45,7 @@ sudo apt-get install ros-noetic-realsense2-*
 
 ## 4. Easy Handeye Eye-in-Hand Calibration
 
-Steps for starting the calibration:
+Steps for the calibration:
 ```
 roscore
 roslaunch realsense2_camera rs_rgbd.launch
