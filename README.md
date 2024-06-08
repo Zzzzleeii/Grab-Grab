@@ -2,7 +2,7 @@
   
 **Ubuntu version: 20.04**
 
-- ## Preparation
+-## Preparation
 
 1. Configure the network setting
 
