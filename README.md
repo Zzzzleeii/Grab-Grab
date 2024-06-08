@@ -2,7 +2,7 @@
 
 Ubuntu version: 20.04
 
-## 1. Prepare
+## 1. Preparation
 Configure the network
 
 Add code to .bashrc
