@@ -47,7 +47,6 @@ sudo apt-get install ros-noetic-realsense2-*
 
 Steps for the calibration:
 ```
-roscore
 roslaunch realsense2_camera rs_rgbd.launch
 roslaunch aubo_i5_moveit_config moveit_planning_execution.launch sim:=false robot_ip:=192.168.31.10
 roslaunch easy_handeye aubo_realsense_calibration.launch
