@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aruco_msgs/share/roseus/ros/aruco_msgs/manifest.l

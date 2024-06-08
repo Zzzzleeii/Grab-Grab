@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aubo_msgs/lib/python3/dist-packages/aubo_msgs/msg/_Analog.py

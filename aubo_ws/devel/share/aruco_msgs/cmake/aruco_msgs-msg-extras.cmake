@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs-msg-extras.cmake

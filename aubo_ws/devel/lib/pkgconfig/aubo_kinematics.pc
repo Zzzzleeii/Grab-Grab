@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aubo_kinematics/lib/pkgconfig/aubo_kinematics.pc

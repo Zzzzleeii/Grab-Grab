@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aubo_msgs/share/roseus/ros/aubo_msgs/msg/TraPoint.l

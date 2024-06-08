@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aubo_i3_moveit_config/share/aubo_i3_moveit_config/cmake/aubo_i3_moveit_configConfig.cmake

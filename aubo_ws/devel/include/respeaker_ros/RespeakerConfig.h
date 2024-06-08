@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/respeaker_ros/include/respeaker_ros/RespeakerConfig.h

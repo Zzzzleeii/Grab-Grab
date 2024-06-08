@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/easy_handeye/share/roseus/ros/easy_handeye/srv/RemoveSample.l

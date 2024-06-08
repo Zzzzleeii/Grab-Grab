@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aubo_driver/share/aubo_driver/cmake/aubo_driverConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/visp_hand2eye_calibration/include/visp_hand2eye_calibration/compute_effector_camera_quickRequest.h

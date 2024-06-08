@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/visp_camera_calibration/lib/python3/dist-packages/visp_camera_calibration/srv/__init__.py

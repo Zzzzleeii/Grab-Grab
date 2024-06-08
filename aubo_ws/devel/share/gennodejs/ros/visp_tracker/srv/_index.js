@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/visp_tracker/share/gennodejs/ros/visp_tracker/srv/_index.js

@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aubo_e5_moveit_config/share/aubo_e5_moveit_config/cmake/aubo_e5_moveit_configConfig.cmake

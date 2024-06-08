@@ -1,1 +1,0 @@
-/home/aubo-fy/aubo_ws/devel/.private/aubo_controller/lib/pkgconfig/aubo_controller.pc
