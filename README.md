@@ -23,8 +23,6 @@ roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.1
 
 ## Installation of Intel Realsense2
 
-[**Care for the version of SDK and Firmwire**](https://dev.intelrealsense.com/docs/firmware-releases-d400)
-
 - Install Depencencies:
 ```
 sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev
@@ -42,6 +40,8 @@ realsense-viewer
 ```
 sudo apt-get install ros-noetic-realsense2-*
 ```
+
+[**Care for the version of SDK and Firmwire!!**](https://dev.intelrealsense.com/docs/firmware-releases-d400)
 
 ## Easy Handeye Eye-in-Hand Calibration
 
