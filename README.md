@@ -28,8 +28,7 @@ sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3
 
 ```
 
-3. Installation & Uninstallation & Upgradation of the SDK:
-https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#uninstalling-the-packages
+3. Installation & Uninstallation & Upgradation of the SDK: https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#uninstalling-the-packages
 
 4. Run & Test
 ```
