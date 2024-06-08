@@ -29,7 +29,7 @@ sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3
 sudo apt-get install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev at
 ```
 
-- [Installation, uninstallation, upgradation of the SDK](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#uninstalling-the-packages) 
+- [Guide](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#uninstalling-the-packages) for the SDK
 
 - Run & Test:
 ```
