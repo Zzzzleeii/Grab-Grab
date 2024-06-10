@@ -36,7 +36,7 @@ sudo apt-get install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev at
 realsense-viewer
 ```
 
-- Installation of ROS Package:
+- Install ROS Package:
 ```
 sudo apt-get install ros-noetic-realsense2-*
 ```
@@ -54,12 +54,12 @@ roslaunch easy_handeye aubo_realsense_calibration.launch
 
 > ### Attention!!
 
-- If there has no rs_rgbd:
+- If there have no rs_rgbd:
 ```
 sudo apt-get install ros-noetic-rgbd-launch
 ```
 
 - Without Anaconda environment:
 ```
-catkin build -j2 -DCATKIN_WHITELIST_PACKAGES="Your Package Name" -DPYTHON_EXECUTABLE=/usr/bin/python3
+catkin build -j2 -DCATKIN_WHITELIST_PACKAGES="Package Name" -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
