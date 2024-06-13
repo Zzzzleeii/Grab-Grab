@@ -1,12 +1,12 @@
   # 6DoF Object Grasping by Aubo-i5 Manipulator & D415
   
-**Ubuntu version: 20.04**
+Ubuntu version: 20.04
 
-**GPU: GeForce RTX 4060 Max-Q / Mobile**
+GPU: GeForce RTX 4060 Max-Q / Mobile
 
-**Nvidia-driver version: 550.54.14**
+Nvidia-driver version: 550.54.14
 
-**Cuda version: 11.8**
+Cuda version: 11.8
 
 ## Preparation
 - Configure the network setting
