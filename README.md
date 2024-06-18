@@ -76,3 +76,7 @@ catkin build -j2 -DCATKIN_WHITELIST_PACKAGES="Package Name" -DPYTHON_EXECUTABLE=
 ```
 sudo usermod -aG dialout $USER
 ```
+
+> ### Attention!!
+
+- Host GND, RX, TX --> GND, TX, RX 
