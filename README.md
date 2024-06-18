@@ -69,3 +69,10 @@ sudo apt-get install ros-noetic-rgbd-launch
 ```
 catkin build -j2 -DCATKIN_WHITELIST_PACKAGES="Package Name" -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
+
+## Control Gripper by pySerial
+
+-Permission for the current user:
+```
+sudo usermod -aG dialout $USER
+```
