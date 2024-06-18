@@ -55,6 +55,8 @@ Care for the [**version**](https://dev.intelrealsense.com/docs/firmware-releases
 ```
 roslaunch realsense2_camera rs_rgbd.launch
 roslaunch aubo_i5_moveit_config moveit_planning_execution.launch sim:=false robot_ip:=192.168.31.10
+roslaunch aruco_ros single.launch 
+rosrun image_view image_view image:=/aruco_single/result
 roslaunch easy_handeye aubo_realsense_calibration.launch
 ```
 
