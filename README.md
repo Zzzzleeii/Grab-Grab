@@ -67,7 +67,7 @@ roslaunch easy_handeye aubo_realsense_calibration.launch
 sudo apt-get install ros-noetic-rgbd-launch
 ```
 
-- Without Anaconda environment:
+- Build without Anaconda environment:
 ```
 catkin build -j2 -DCATKIN_WHITELIST_PACKAGES="Package Name" -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
