@@ -62,7 +62,7 @@ roslaunch easy_handeye aubo_realsense_calibration.launch
 
 > ### Attention!!
 
-- Without 'rs_rgbd' pakage:
+- If 'rs_rgbd' pakage doesn't exist:
 ```
 sudo apt-get install ros-noetic-rgbd-launch
 ```
