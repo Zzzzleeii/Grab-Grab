@@ -16,7 +16,7 @@ Cuda: 11.8
 git clone https://github.com/Zzzzleeii/Aubo_i5/aubo_ws.git
 ```
 
-- Add to **.bashrc** file:
+- Add code to **.bashrc** file:
 ```
 source devel/setup.bash
 ```
