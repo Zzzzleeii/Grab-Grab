@@ -49,7 +49,7 @@ sudo apt-get install ros-noetic-realsense2-*
 
 Care for the [**version**](https://dev.intelrealsense.com/docs/firmware-releases-d400) of SDK and Firmwire!!
 
-## Easy Handeye Eye-in-Hand Calibration
+## Eye-in-Hand Calibration by Easy_Handeye
 
 - Steps for the calibration:
 ```
