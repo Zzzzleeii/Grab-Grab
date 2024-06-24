@@ -60,19 +60,6 @@ rosrun image_view image_view image:=/aruco_single/result
 roslaunch easy_handeye aubo_realsense_calibration.launch
 ```
 
-[INFO] [1718725891.499411]: Computing from 30 poses...
-[INFO] [1718725891.573876]: Computed calibration: effector_camera: 
-  translation: 
-    x: 0.044756051600663774
-    y: 0.05979272919222188
-    z: -0.011391058087576813
-  rotation: 
-    x: -0.011765807151486856
-    y: 0.0040866740724522215
-    z: 0.9996460647315659
-    w: 0.023507661385041456
-
-
 > ### Attention!!
 
 - Without rs_rgbd pakage:
