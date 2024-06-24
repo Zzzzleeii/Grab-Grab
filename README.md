@@ -74,7 +74,7 @@ catkin build -j2 -DCATKIN_WHITELIST_PACKAGES="Package Name" -DPYTHON_EXECUTABLE=
 
 ## Control Gripper by pySerial
 
-- HiWonder self-adaptive gripper
+- Equipment: HiWonder self-adaptive gripper
 
 - Permission for the current user:
 ```
