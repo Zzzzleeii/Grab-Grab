@@ -87,9 +87,16 @@ catkin build -j2 -DCATKIN_WHITELIST_PACKAGES="Package Name" -DPYTHON_EXECUTABLE=
 
 ## Control Gripper by pySerial
 
+- HiWonder self-adaptive gripper
+
 - Permission for the current user:
 ```
 sudo usermod -aG dialout $USER
+```
+
+- Test the gripper:
+```
+python gripper_test.py
 ```
 
 > ### Attention!!
