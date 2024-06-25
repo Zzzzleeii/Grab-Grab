@@ -1,12 +1,18 @@
   # 6DoF Object Grasping by Aubo-i5 Manipulator & D415
   
-Ubuntu: 20.04
+- Ubuntu: 20.04
 
-GPU: GeForce RTX 4060 Max-Q / Mobile
+- GPU: GeForce RTX 4060 Max-Q / Mobile
 
-Nvidia-driver: 550.54.14
+- Nvidia-driver: 550.54.14
 
-Cuda: 11.8
+- Cuda: 11.8
+
+> ### If Ubuntu system can't be booted due to the Nvidia-driver:
+
+1. Check the 'Safe Mode' in UEFI setiing.
+
+2. Reboot with Windows then boot Ubuntu system.
 
 ## Preparation
 - Configure the network setting
