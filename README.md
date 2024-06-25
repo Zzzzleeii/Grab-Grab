@@ -10,7 +10,7 @@
 
 > ### If Ubuntu system can't be booted due to the Nvidia-driver:
 
-1. Check the 'Safe Mode' in UEFI setiing.
+1. Check the 'Safe Mode' in UEFI BIOS.
 
 2. Reboot with Windows then boot Ubuntu system.
 
