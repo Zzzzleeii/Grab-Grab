@@ -29,6 +29,18 @@ source devel/setup.bash
 
 ## Moveit! Test
 
+- RViz & Gazebo simulation:
+```
+roslaunch aubo_gazebo aubo_i5_gazebo_control.launch
+roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=127.0.0.1
+```
+
+- Planning a cycle trajectory
+```
+rosrun trajectory_demo moveit_cycle_demo.py
+```
+
+- Real robot
 ```
 roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.168.31.10
 ```
