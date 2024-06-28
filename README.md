@@ -20,6 +20,7 @@
 - Download the code:
 ```
 git clone https://github.com/Zzzzleeii/Aubo_i5/aubo_ws.git
+catkin build -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 
 - Add code to **.bashrc** file:
