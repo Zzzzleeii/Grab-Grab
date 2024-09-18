@@ -7,11 +7,16 @@ network:
   renderer: networkd
   ethernets:
     enp12s0:
-      dhcp4: false
+      dhcp4: true
       addresses: [192.168.31.5/24]
       gateway4: 192.168.31.1
       nameservers:
               addresses: [192.168.31.1]
+  wifis:
+    wlp0s20f3:
+      dhcp4: true
+      access-points:
+        "Wi-Fi.HK via PolyU": {}
 
 
 为了解决Ubuntu 20.04中同时使用有线（如enp12s0）和无线（如wlp0s20f3）上网的问题，你需要确保正确的路由策略，以避免两者的默认路由冲突。默认情况下，系统可能会选择其中一个网络来发送所有流量，而忽略另一个接口。因此，你需要将流量合理地分配到两个接口上。
