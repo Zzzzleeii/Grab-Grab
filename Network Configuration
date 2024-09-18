@@ -12,3 +12,111 @@ network:
       gateway4: 192.168.31.1
       nameservers:
               addresses: [192.168.31.1]
+
+
+为了解决Ubuntu 20.04中同时使用有线（如enp12s0）和无线（如wlp0s20f3）上网的问题，你需要确保正确的路由策略，以避免两者的默认路由冲突。默认情况下，系统可能会选择其中一个网络来发送所有流量，而忽略另一个接口。因此，你需要将流量合理地分配到两个接口上。
+
+解决方案目标
+有线网络（enp12s0）用于局域网（如内部网络访问）。
+无线网络（wlp0s20f3）用于外部网络（如互联网流量）。
+步骤 1：检查当前路由表
+首先，查看当前的路由表，确保了解现有的默认路由情况：
+
+bash
+复制代码
+ip route show
+你可能会看到类似的输出：
+
+scss
+复制代码
+default via 192.168.31.1 dev enp12s0 proto static
+default via 172.16.0.1 dev wlp0s20f3 proto dhcp metric 600
+192.168.31.0/24 dev enp12s0 proto kernel scope link src 192.168.31.5
+172.16.0.0/16 dev wlp0s20f3 proto kernel scope link src 172.16.14.13
+步骤 2：删除冲突的默认路由
+如果有多个默认路由，系统会优先选择一个路由（通常是metric较低的那个），导致另一条线路无法正常工作。你可以删除不必要的默认路由。
+
+假设你希望通过无线（wlp0s20f3）上网，而有线用于内部网络，你可以删除有线网络的默认路由：
+
+bash
+复制代码
+sudo ip route del default via 192.168.31.1 dev enp12s0
+如果出现错误提示“No such process”，说明路由表中没有这样的条目。这时请检查路由表，确保删除命令的网关和接口是正确的。
+
+步骤 3：为局域网添加路由
+确保有线网络用于局域网（如公司内部或家用网络）。你可以通过为有线接口添加一条局域网路由来实现：
+
+bash
+复制代码
+sudo ip route add 192.168.31.0/24 dev enp12s0
+步骤 4：为无线接口添加默认路由
+确保无线网络用于互联网流量，你可以为无线接口添加一条默认路由：
+
+bash
+复制代码
+sudo ip route add default via 172.16.0.1 dev wlp0s20f3
+步骤 5：配置策略路由
+如果你希望基于流量源（比如，某个特定的IP地址）来决定流量走哪条路，可以使用策略路由。创建一个新的路由表并添加路由规则：
+
+编辑路由表配置：
+
+打开/etc/iproute2/rt_tables文件，添加一行新的路由表定义：
+
+bash
+复制代码
+100 wlan
+为无线接口创建规则：
+
+添加策略路由规则，让无线接口的流量走自定义的wlan路由表：
+
+bash
+复制代码
+sudo ip rule add from 172.16.14.13 table wlan
+为自定义路由表添加默认路由：
+
+为新创建的wlan路由表添加默认路由：
+
+bash
+复制代码
+sudo ip route add default via 172.16.0.1 dev wlp0s20f3 table wlan
+步骤 6：检查配置
+运行以下命令来确认路由配置是否正确：
+
+bash
+复制代码
+ip rule show
+ip route show
+你应该看到基于IP地址的策略路由，以及默认路由分别指向有线和无线接口。
+
+步骤 7：永久保存配置
+这些路由规则和策略在重启后会丢失。为了使它们在系统启动时自动应用，你可以创建脚本：
+
+创建目录（如果尚不存在）：
+
+bash
+复制代码
+sudo mkdir -p /etc/networkd-dispatcher/routable.d/
+创建脚本 /etc/networkd-dispatcher/routable.d/10-additional-routing：
+
+bash
+复制代码
+sudo nano /etc/networkd-dispatcher/routable.d/10-additional-routing
+在脚本中添加以下内容：
+
+bash
+复制代码
+#!/bin/bash
+
+ip rule add from 172.16.14.13 table wlan
+ip route add default via 172.16.0.1 dev wlp0s20f3 table wlan
+ip route add 192.168.31.0/24 dev enp12s0
+赋予该脚本可执行权限：
+
+bash
+复制代码
+sudo chmod +x /etc/networkd-dispatcher/routable.d/10-additional-routing
+总结
+无线网络将用于互联网流量（默认路由通过无线网络）。
+有线网络将用于内部网络（局域网路由通过有线接口）。
+通过策略路由，可以根据流量源来决定走哪条路由。
+通过这种方式，Ubuntu可以同时使用有线和无线网络。
