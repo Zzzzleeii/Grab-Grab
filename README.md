@@ -104,7 +104,3 @@ sudo usermod -aG dialout $USER
 ```
 python gripper_test.py
 ```
-
-> ### Attention!!
-
-- Host GND, RX, TX --> GND, TX, RX 
